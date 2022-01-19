@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/devchallenges.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/javascript/script.js" defer></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Montserrat:wght@500&family=Poppins:wght@300;500&display=swap"
+    rel="stylesheet">
+  <title>Edie Homepage</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-header">
+          <div class="nav-brand">
+            <a href="#">Edie</a>
+          </div>
+          <button class="nav-btn">
+            <span class="material-icons"> menu </span>
+          </button>
+        </div>
+        <div class="nav-nav">
+          <ul>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#section-services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#section-ourwork" class="nav-link">Our Works</a>
+            </li>
+            <li class="nav-item">
+              <a href="#section-clients" class="nav-link">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a href="#section-contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="section-home">
+      <div class="container">
+        <div class="content">
+          <h6 class="slogan">Unhappy with your website?</h6>
+          <h1 class="title-main">We create beautiful and fast web services</h1>
+        </div>
+        <img src="assets/images/heroImage.jpg" class="hero-img img-fluid" alt="">
+        <div class="content">
+          <h1 class="title-main">Story, emotion and purpose</h1>
+          <p class="description">We help transform your ideas into real world applications that will outperform your
+            toughest competition and help you achieve your strategic goals in short period of time.</p>
+        </div>
+        <div class="content">
+          <form>
+            <h6>Want us to contact you?</h6>
+            <input type="email" id="userEmail" placeholder="Email" required>
+            <input type="submit" value="Join" id="heroSubmit">
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="section-services">
+      <div class="container">
+        <div class="header">
+          <h1 class="title-main">We offer high demand services</h1>
+        </div>
+        <div class="content">
+          <div class="card">
+            <div class="card-body">
+              <div class="icon bg-blue">
+                <span class="material-icons"> edit </span>
+              </div>
+              <h4 class="title">UI/UX Design</h4>
+              <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla
+                consequat aliquet id quis turpis.</p>
+              <button class="btn-main">Get Started</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div class="icon bg-green">
+                <span class="material-icons"> code </span>
+              </div>
+              <h4 class="title">Front End</h4>
+              <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla
+                consequat aliquet id quis turpis.</p>
+              <button class="btn-main">Get Started</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div class="icon bg-red">
+                <span class="material-icons"> storage </span>
+              </div>
+              <h4 class="title">Back End</h4>
+              <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla
+                consequat aliquet id quis turpis.</p>
+              <button class="btn-main">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="design" id="section-ourwork">
+      <div class="container">
+        <div class="header">
+          <h1 class="title-main">Good design means good business</h1>
+        </div>
+        <div class="content">
+          <div class="card">
+            <div class="card-head">
+              <img src="assets/images/smarthome.jpg" class="img-fluid" alt="smarthome application dashboard ui">
+            </div>
+            <div class="card-body">
+              <h5>Full stack application</h5>
+              <h3>Smart home dashboard</h3>
+            </div>
+          </div>
+          <!-- reposition used to change the position of element in 768px -->
+          <div class="card reposition">
+            <div class="card-head">
+              <img src="assets/images/onboard.png" class="img-fluid" alt="board application ui">
+            </div>
+            <div class="card-body">
+              <h5>UI/UX Design</h5>
+              <h3>Onboard application</h3>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <img src="assets/images/booking.png" class="img-fluid" alt="booking system app">
+            </div>
+            <div class="card-body">
+              <h5>Mobile Application</h5>
+              <h3>Booking System</h3>
+            </div>
+          </div>
+          <div class="card reposition">
+            <div class="card-head">
+              <img src="assets/images/juice-product.png" class="img-fluid" alt="juice product homepage">
+            </div>
+            <div class="card-body">
+              <h5>Front End Application</h5>
+              <h3>Juice product homepage</h3>
+            </div>
+          </div>
+          <a href="#" class="see-more">see more <span class="material-icons"> arrow_right_alt</span></a>
+        </div>
+      </div>
+    </section>
+    <section class="team" id="section-contact">
+      <div class="container">
+        <div class="header">
+          <h5>Meet the team</h5>
+          <h1 class="title-main">We are a chilled and a laidback team</h1>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="content">
+          <img src="assets/images/person3.png" class="img-1 img-fluid grid-row-span-2" alt="team member">
+          <img src="assets/images/person1.png" class="img-2 img-fluid" alt="team member">
+          <img src="assets/images/person2.png" class="img-3 img-fluid" alt="team member">
+        </div>
+      </div>
+    </section>
+    <section class="review" id="section-clients">
+      <div class="container">
+        <h2>“Fast and outstanding resutls. Edie understands their customer's needs. They have a young and talented
+          team.” </h2>
+        <div class="author">
+          <div class="image">
+            <img src="assets/images/person4.png" class="img-fluid" alt="">
+          </div>
+          <div class="content">
+            <h4>Carlos Tran</h4>
+            <h5>The Decorative Gatsby</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="m-5"></div>
+  <footer>
+    <div class="container">
+      <div class="footer-nav">
+        <a href="#" class="link">Home</a>
+        <a href="#section-services" class="link">Services</a>
+        <a href="#section-ourwork" class="link">Our Works</a>
+        <a href="#section-clients" class="link">Clients</a>
+        <a href="#section-contact" class="link">Contact</a>
+      </div>
+      <div class="footer-brand">
+        <div class="nav-brand">
+          <a href="#">Edie</a>
+        </div>
+        <div class="social">
+          <img src="assets/images/instagram.svg" alt="instagram icon">
+          <img src="assets/images/linkedin.svg" alt="linkedin icon">
+          <img src="assets/images/twitter.svg" alt="twitter icon">
+        </div>
+      </div>
+      <div class="footer-form">
+        <form>
+          <h6>Want us to contact you?</h6>
+          <input type="email" id="userEmail" placeholder="Email" required>
+          <input type="submit" value="Join" id="heroSubmit">
+        </form>
+      </div>
+      <h5 class="copyright">created by edoitachi - devChallenges.io</h5>
+    </div>
+  </footer>
+</body>
+
+</html>
