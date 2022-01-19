@@ -554,16 +554,15 @@ footer form input[type='submit'] {
 	padding: 5rem 0;
 }
 footer {
-	padding: 2rem 0;
+	padding: 4rem 0;
 	background: #100e1d;
 	position: relative;
 }
 footer .container {
-	display: flex;
-	justify-content: space-between;
 	min-height: 20rem;
-	align-items: baseline;
+	text-align: center;
 }
+
 footer .footer-nav {
 	display: flex;
 	flex-flow: column;
@@ -577,8 +576,10 @@ footer .footer-nav a {
 	color: #ffffff;
 }
 footer .nav-brand {
-	padding: 0;
 	margin-bottom: 0.5rem;
+}
+footer .footer-brand {
+	padding: 1rem 0;
 }
 footer .nav-brand a {
 	color: #fff;
@@ -590,6 +591,31 @@ footer .social {
 }
 footer .footer-form {
 	width: 20rem;
+}
+footer .social {
+	justify-content: center;
+}
+.footer-form {
+	margin: 0 auto;
+	padding: 2rem 0;
+}
+@media (min-width: 768px) {
+	footer .container {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		text-align: start;
+	}
+	footer .social {
+		justify-content: center;
+	}
+	.footer-form {
+		margin: 0;
+		padding: 0;
+	}
+	.nav-brand {
+		padding: 0;
+	}
 }
 .copyright {
 	font-family: Montserrat;
