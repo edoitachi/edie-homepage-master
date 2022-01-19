@@ -590,7 +590,7 @@ footer .social {
 	gap: 0.5rem;
 }
 footer .footer-form {
-	width: 20rem;
+	max-width: 20rem;
 }
 footer .social {
 	justify-content: center;
